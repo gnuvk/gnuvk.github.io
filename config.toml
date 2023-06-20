@@ -1,0 +1,37 @@
+baseURL = 'https://gnuvk.github.io'
+languageCode = 'tr-tr'
+title = "GNUVK Blog"
+theme = "hugo-coder"
+
+[author]
+  name = "Quitaxd"
+  email = "ramazan@reborn.com"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  author = "Quitaxd"
+  info = "Ben bir geliştiriciyim"
+  description = "Burası benim mekanım"
+  keywords = "blog"
+  colorScheme = "dark"
+
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/Quitaxd"
+[[params.social]]
+  name = "RSS"
+  icon = "fa fa-2x fa-rss"
+  weight = 6
+  url = "index.xml"
+  rel = "alternate"
+  type = "application/rss+xml"
+
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url = "posts/"
+
